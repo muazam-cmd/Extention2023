@@ -1,0 +1,12 @@
+{
+    "name": "Chrome extention",
+    "version": "1.0.0",
+    "description": "this is my very first chrome extenton",
+    "manifest_version": 3,
+    "background": {
+        "service_worker":"background.js"
+    },
+    "permissions": [
+        "bookmarks"
+    ]
+}
